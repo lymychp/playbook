@@ -49,35 +49,35 @@ By default we use Github as an issue tracker for all the projects
 We use only below issue types. All of them can be used at the same time in one project depends of the need.
 
    1. feature - should be started from the business expression of the need - link to Confluence. And gradually is enriched by SA or Dev with Business process, ERD, Apiary spec, etc. Usually whenever it is needed something to be developed, new ticket with the `kind/feature` should be created
-     1. Must use
-     2. complex WF
-     3. can be assigned to SA, Dev 
-     4. Can be closed only by SA
+     * Must use
+     * complex WF
+     * can be assigned to SA, Dev 
+     * Can be closed only by SA
    2. release - task to deliver 
-     1. Must use
-     2. Simple WF - backlog, in_progress, done
-     3. Can be assigned to DevOps, Dev
-     4. Can be closed by anyone
+     * Must use
+     * Simple WF - backlog, in_progress, done
+     * Can be assigned to DevOps, Dev
+     * Can be closed by anyone
    3. bug - used to register bugs that has been detected after release
-     1. Must use
-     2. Simple WF - backlog, in_progress, done
-     3. Can be assigned to Dev
-     4. Can be closed by anyone
+     * Must use
+     * Simple WF - backlog, in_progress, done
+     * Can be assigned to Dev
+     * Can be closed by anyone
    4. Design - used to register and track all the activities that need to be done before development starts
-     1. Optional use
-     2. Simple WF - backlog, in_progress, done
-     3. Can be assigned to SA, Dev
-     4. Can be closed by anyone
+     * Optional use
+     * Simple WF - backlog, in_progress, done
+     * Can be assigned to SA, Dev
+     * Can be closed by anyone
    5. Infra - tasks related to the infrastructure setup/configuration
-     1. Optional use
-     2. Simple WF - backlog, in_progress, done
-     3. Can be assigned to DevOps
-     4. Can be closed by anyone
+     * Optional use
+     * Simple WF - backlog, in_progress, done
+     * Can be assigned to DevOps
+     * Can be closed by anyone
    6. task - can be used instead of Design, Infra tasks
-     1. Optional use
-     2. Simple WF - backlog, in_progress, done
-     3. Can be assigned to anyone
-     4. Can be closed by anyone
+     * Optional use
+     * Simple WF - backlog, in_progress, done
+     * Can be assigned to anyone
+     * Can be closed by anyone
 
 `user story` style should be used by default whenever new feature is created: "As a <role>, I want <goal/desire> so that <benefit>"
 
